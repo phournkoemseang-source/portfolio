@@ -92,7 +92,7 @@ nav {
 
 /* Header */
 header {
-    background: linear-gradient(rgba(86, 0, 20, 0.9), rgba(86, 0, 20, 0.95)), url('https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg');
+    background: linear-gradient(rgba(86, 0, 20, 0.9), rgba(86, 0, 20, 0.95)), url('https://img.freepik.com/premium-photo/web-development-concept-with-person-using-laptop-computer_1158146-32204.jpg?semt=ais_hybrid&w=740&q=80');
     background-size: cover;
     background-position: center;
     color: var(--text-light);
