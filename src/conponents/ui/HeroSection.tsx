@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, MapPin, GraduationCap } from "lucide-react";
-import profileImg from "../../assets/seang-pro.jpg";
+import profileImg from "../../assets/Nh.png";
 
 const HeroSection = () => {
   return (
@@ -31,7 +31,7 @@ const HeroSection = () => {
             </motion.div>
 
             <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6">
-              Hi, I'm{" "}
+              {" "}
               <span className="text-gradient">Koemseang</span>
               <br />
               <span className="text-foreground/80">PHEOURN</span>
@@ -97,7 +97,7 @@ const HeroSection = () => {
                 transition={{ duration: 5, repeat: Infinity }}
                 className="absolute -left-4 bottom-1/4 glass rounded-xl px-3 py-2 shadow-lg"
               >
-                <span className="text-xs font-mono text-accent">✦ Design</span>
+                <span className="text-xs font-mono text-accent">Design</span>
               </motion.div>
             </div>
           </motion.div>
@@ -125,3 +125,4 @@ const HeroSection = () => {
 };
 
 export default HeroSection;
+

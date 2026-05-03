@@ -4,7 +4,6 @@ import { ExternalLink, Code2, ArrowUpRight } from "lucide-react";
 import projectRental from "../../assets/rental-project.png";
 import projectMusic from "../../assets/music-project.png";
 import projectShopping from "../../assets/shopping-project.png";
-import projectAlarm from "../../assets/alarm-project.png";
 
 const projects = [
   {
