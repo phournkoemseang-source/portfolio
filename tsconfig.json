@@ -13,7 +13,9 @@
     "noEmit": true,
     "strict": false,
     "skipLibCheck": true,
-    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom"]
+    "allowJs": true,
+    "esModuleInterop": true,
+    "types": ["vite/client", "vitest/globals", "@testing-library/jest-dom", "node"]
   },
   "include": ["src"]
 }
