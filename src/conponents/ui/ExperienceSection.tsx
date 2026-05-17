@@ -10,6 +10,20 @@ type ProjectExperience = {
 
 const projectExperiences: ProjectExperience[] = [
   {
+    title: "NekMak Restaurant",
+    role: "Position: Full-stack Developer",
+    date: "May 01, 2026",
+    points: [
+      "Developed a simple yet luxurious premium dining website with a dark aesthetic, optimized for a high-end user experience.",
+      "Implemented core features including an interactive food ordering system and a table reservation module for dating and special events.",
+      "Integrated Firebase for real-time data management, handling order submissions and booking requests seamlessly.",
+      "Built a fully responsive frontend using Vanilla JavaScript, HTML5, and Tailwind CSS for modern styling and smooth animations.",
+      "Deployed and managed the application using Firebase Hosting and GitHub for version control.",
+      "Technologies: HTML5, CSS3, JavaScript, Tailwind CSS, Firebase.",
+      "Tools: GitHub, Firebase, VS Code.",
+    ],
+  },
+  {
     title: "Service Rental Vehicles - VC1 Project",
     role: "Position: Developer",
     date: "Feb 15 - April 02, 2026",

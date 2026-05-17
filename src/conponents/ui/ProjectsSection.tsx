@@ -4,8 +4,18 @@ import { ExternalLink, Code2, ArrowUpRight } from "lucide-react";
 import projectRental from "../../assets/rental-project.png";
 import projectMusic from "../../assets/music-project.png";
 import projectShopping from "../../assets/shopping-project.png";
+import projectNekmak from "../../assets/nekmak.png";
 
 const projects = [
+  {
+    title: "NekMak Restaurant",
+    description: "A simple and luxurious dining platform where users can browse menus, order food online, and book tables for special dates or events. Built with a focus on premium aesthetics and smooth performance.",
+    tags: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Firebase"],
+    image: projectNekmak,
+    color: "from-primary/10 to-accent/10",
+    github: "https://github.com/phournkoemseang-source/NekMak_Restaurant.git",
+    live: "https://seang12.web.app/",
+  },
   {
     title: "Service Rental Vehicles",
     description: "A web platform that allows users to rent motorbikes, bicycles, and cars. Users can search for nearby rental shops, select rental duration, and book instantly. Built with Vue.js frontend and Laravel backend.",

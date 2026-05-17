@@ -21,8 +21,8 @@ const AboutSection = () => {
           <div className="w-full h-px bg-border mb-5" />
           <p className="text-base md:text-lg text-foreground/85 leading-relaxed">
             I&apos;m Koemseang PHOEURN, a Khmer national born in July 14th, 2006 in Pursat Province.
-            Web Developer with experience building full-stack applications. Delivered three real-world
-            projects including a vehicle rental platform and an e-commerce site demonstrating the ability
+            Web Developer with experience building full-stack applications. Delivered four real-world
+            projects including a premium dining website (NekMak Restaurant), a vehicle rental platform, and an e-commerce site demonstrating the ability
             to ship production ready code. Passionate about creating clean, user-friendly digital solutions.
           </p>
         </motion.div>

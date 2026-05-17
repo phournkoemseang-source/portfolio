@@ -19,10 +19,12 @@ import jiraImg from "../../assets/jira.jpg";
 import jsImg from "../../assets/js-1.jpg";
 import laravelImg from "../../assets/laravel.jpg";
 import lovableImg from "../../assets/lovable.jpg";
+import mongodbImg from "../../assets/mongodb.png";
 import mysqlImg from "../../assets/mysql.jpg";
 import nodeImg from "../../assets/node.jpg";
 import phpImg from "../../assets/php.jpg";
 import postmanImg from "../../assets/postman.jpg";
+import powerbiImg from "../../assets/powerbi.png";
 import pythonImg from "../../assets/python-1.jpg";
 import typescriptImg from "../../assets/typescript-1.jpg";
 import wordpressImg from "../../assets/wordpress.jpg";
@@ -65,6 +67,7 @@ const techSkillGroups: SkillGroup[] = [
     title: "Database",
     items: [
       { name: "MySQL", image: mysqlImg },
+      { name: "MongoDB", image: mongodbImg },
       { name: "Database Management Systems (RDBMS)", image: dbmsImg },
     ],
   },
@@ -78,6 +81,12 @@ const toolGroups: SkillGroup[] = [
       { name: "Docker", image: dockerImg },
       { name: "Postman", image: postmanImg },
       { name: "WordPress", image: wordpressImg },
+    ],
+  },
+  {
+    title: "Data Analysis",
+    items: [
+      { name: "Power BI", image: powerbiImg },
     ],
   },
   {
